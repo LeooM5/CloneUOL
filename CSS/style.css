@@ -1,0 +1,94 @@
+/* ESTILIZAÇÃO GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* HEADER */
+
+#logo {
+    width: 68px;
+
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    justify-content: center;
+
+}
+
+.HeaderCima,
+.HeaderBaixo {
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderCima {
+    padding: 0 1.5em;
+    width: 100%;
+    height: 9.5%;
+    justify-content: space-evenly;
+    background-color: #262626;
+}
+
+.esquerdaNav,
+.direitaNav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    margin: 0 1.8em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    margin: .5em;
+}
+
+nav a:hover {
+    opacity: .75;
+}
+
+.direitaNav i {
+    margin: 0 .5em;
+    font-size: small
+}
+
+#batepapo {
+    margin-top: .35em;
+}
+
+#envelope {
+    margin-top: .25em;
+}
+
+.direitaNav p {
+    margin: 0 .5em;
+    font-size: 13px;
+}
+
+
+/* CORPO */
+
+
+
+/* FOOTER */

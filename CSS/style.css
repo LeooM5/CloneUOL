@@ -19,14 +19,14 @@
 /*CONTAINER*/
 
 
-/* HEADER */
+/* HEADER TOPO */
 
 #logo {
     width: 68px;
     cursor: pointer;
 }
 
-#logo:hover{
+#logo:hover {
     opacity: 0.85;
     transition-duration: 0.1s;
 }
@@ -34,12 +34,13 @@
 /*alterei para um valor fixo, para facilitar integração com outros dispositivos*/
 header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 
 }
 
 .HeaderCima,
-.HeaderBaixo {
+.HeaderMeio {
     display: flex;
     flex-direction: row;
 }
@@ -51,7 +52,7 @@ header {
     background-color: #262626;
 }
 
-.containerNav{
+.containerNav {
     display: flex;
     align-items: center;
     max-width: 1170px;
@@ -61,7 +62,7 @@ header {
 
 nav {
     display: flex;
-    margin: 0 1.6em;
+    margin: 0 1em;
     margin-right: 0;
     max-width: 854px;
     width: 100%;
@@ -85,10 +86,174 @@ a {
 
 .containerNav a i {
     padding: 1.5px 4px 1.5px 0;
-    margin-top:  5px;
+    margin-top: 5px;
     font-size: 24px;
     display: inline;
 }
+
+/* HEADER MEIO */
+
+.HeaderMeio {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid green;
+}
+
+.divMenu {
+    display: flex;
+    width: 75%;
+    height: 5.9em;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.Menu,
+.Login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu {
+    width: 10%;
+}
+
+.Menu p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.Menu button {
+    width: 4.5em;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: space-between;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Menu button:hover,
+.Menu a:hover {
+    opacity: .70;
+}
+
+.MenuBotao i {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.estrelas {
+    display: flex;
+    align-items: center;
+}
+
+.estrelas i {
+    margin: .2em;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: #0276fa;
+}
+
+.black {
+    color: black;
+}
+
+.red,
+.blue,
+.black {
+    font-size: .367em;
+    letter-spacing: .5em;
+    font-family: Georgia, serif;
+}
+
+.TituloDoSite {
+    margin-left: 70px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.textoAbaixoDoTitulo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoAbaixoDoTitulo p {
+    font-size: 0.6em;
+    line-height: 2em;
+}
+
+.Login {
+    display: flex;
+    width: 15%;
+}
+
+.Login i {
+    color: black;
+}
+
+.divLogin {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+.divLogin a,
+.divBuscar button {
+    font-weight: 600;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+}
+
+a>h1 {
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.8em;
+    letter-spacing: -.07em;
+}
+
+.HeaderMeio p,
+.HeaderMeio a {
+    color: black;
+    padding: 0;
+}
+
+.Menu a {
+    color: red;
+    font-weight: bold;
+}
+
+.divBuscar button {
+    height: 24px;
+}
+
+#centralizada {
+    left: 49%;
+    top: 14.5%;
+    padding: 5px;
+    width: 29px;
+    height: 37px;
+    position: absolute;
+    background-color: white;
+}
+
+/* HEADER BAIXO */
+
 
 
 /* CORPO */

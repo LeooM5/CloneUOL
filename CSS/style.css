@@ -69,11 +69,11 @@ nav {
     height: 100%;
 }
 
-.containerNav a:hover {
+.containerNav a:hover{
     background-color: #363636;
     color: hsla(0, 0%, 100%, 0.75);
     transition-duration: 0.1s;
-    scale: 1.02;
+    scale: 1.01;
 }
 
 a {
@@ -86,7 +86,7 @@ a {
 
 .containerNav a i {
     padding: 1.5px 4px 1.5px 0;
-    margin-top: 5px;
+
     font-size: 24px;
     display: inline;
 }
@@ -100,30 +100,37 @@ a {
     border-bottom: 2px solid green;
 }
 
-.divMenu {
+.containerMenu {
     display: flex;
-    width: 75%;
-    height: 5.9em;
-    justify-content: space-around;
+    max-width: 1290px;
+    width: 100%;
+    height: 128px;
+
+    align-items: center;
     place-items: center;
 }
 
 .Menu,
-.Login {
+.Login{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+
+    max-width: 285px;
+    width: 100%;
 }
 
-.Menu {
-    width: 10%;
+.Menu{
+    justify-content: start;
 }
 
-.Menu p {
-    font-size: 13px;
-    font-weight: 600;
+
+.assinatura{
+    color: red;
+    font-weight: bold;
 }
 
-.Menu button {
+.Menu button,
+.Menu p{
     width: 4.5em;
     display: flex;
     flex-direction: row;
@@ -134,9 +141,24 @@ a {
     cursor: pointer;
 }
 
+.Menu button{
+    width: 37px;
+}
+
+.Menu p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .Menu button:hover,
-.Menu a:hover {
-    opacity: .70;
+.Menu p:hover,
+.Menu i:hover,
+.containerTitulo h1:hover,
+.Menu a:hover,
+.divBuscar:hover,
+.divLogin:hover{
+    opacity: 0.70;
+    transition-duration: 0.1s;
 }
 
 .MenuBotao i {
@@ -146,12 +168,15 @@ a {
     vertical-align: middle;
 }
 
+
 .estrelas {
+    margin: 0 15px 0 15px;
     display: flex;
     align-items: center;
 }
 
 .estrelas i {
+    font-size: 10px;
     margin: .2em;
 }
 
@@ -175,19 +200,20 @@ a {
     font-family: Georgia, serif;
 }
 
-.TituloDoSite {
-    margin-left: 70px;
-    width: 35%;
+.containerTitulo{
+    max-width: 700px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    place-items: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
 .textoAbaixoDoTitulo {
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
 .textoAbaixoDoTitulo p {
@@ -196,8 +222,7 @@ a {
 }
 
 .Login {
-    display: flex;
-    width: 15%;
+    justify-content: end;
 }
 
 .Login i {
@@ -206,8 +231,6 @@ a {
 
 .divLogin {
     display: flex;
-    justify-content: space-evenly;
-    width: 55%;
 }
 
 .divLogin a,
@@ -227,16 +250,10 @@ a>h1 {
     letter-spacing: -.07em;
 }
 
-.HeaderMeio p,
-.HeaderMeio a {
+.HeaderMeio p{
     color: black;
-    padding: 0;
 }
 
-.Menu a {
-    color: red;
-    font-weight: bold;
-}
 
 .divBuscar button {
     height: 24px;
@@ -244,7 +261,7 @@ a>h1 {
 
 #centralizada {
     left: 49%;
-    top: 14.5%;
+    top: 147px;
     padding: 5px;
     width: 29px;
     height: 37px;
@@ -257,7 +274,10 @@ a>h1 {
 
 
 /* CORPO */
-
+main h1,
+main p{
+    color: black;
+}
 
 
 /* FOOTER */

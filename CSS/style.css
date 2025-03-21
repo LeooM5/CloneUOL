@@ -69,7 +69,7 @@ nav {
     height: 100%;
 }
 
-.containerNav a:hover{
+.containerNav a:hover {
     background-color: #363636;
     color: hsla(0, 0%, 100%, 0.75);
     transition-duration: 0.1s;
@@ -86,7 +86,6 @@ a {
 
 .containerNav a i {
     padding: 1.5px 4px 1.5px 0;
-
     font-size: 24px;
     display: inline;
 }
@@ -105,32 +104,30 @@ a {
     max-width: 1290px;
     width: 100%;
     height: 128px;
-
     align-items: center;
     place-items: center;
 }
 
 .Menu,
-.Login{
+.Login {
     display: flex;
     align-items: center;
-
     max-width: 285px;
     width: 100%;
 }
 
-.Menu{
+.Menu {
     justify-content: start;
 }
 
 
-.assinatura{
+.assinatura {
     color: red;
     font-weight: bold;
 }
 
 .Menu button,
-.Menu p{
+.Menu p {
     width: 4.5em;
     display: flex;
     flex-direction: row;
@@ -141,7 +138,7 @@ a {
     cursor: pointer;
 }
 
-.Menu button{
+.Menu button {
     width: 37px;
 }
 
@@ -156,7 +153,7 @@ a {
 .containerTitulo h1:hover,
 .Menu a:hover,
 .divBuscar:hover,
-.divLogin:hover{
+.divLogin:hover {
     opacity: 0.70;
     transition-duration: 0.1s;
 }
@@ -200,7 +197,7 @@ a {
     font-family: Georgia, serif;
 }
 
-.containerTitulo{
+.containerTitulo {
     max-width: 700px;
     width: 100%;
     display: flex;
@@ -250,7 +247,7 @@ a>h1 {
     letter-spacing: -.07em;
 }
 
-.HeaderMeio p{
+.HeaderMeio p {
     color: black;
 }
 
@@ -275,10 +272,9 @@ a>h1 {
 
 /* CORPO */
 main h1,
-main p{
+main p {
     color: black;
 }
 
 
 /* FOOTER */
-

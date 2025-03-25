@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root {
+    --corprincipal: #262626;
+}
+
+/*CONTAINER*/
+
+.container{
+    max-width: 1290px;
+    width: auto;
+    height: auto;
+}
+
+/* HEADER TOPO */
+
+#logo {
+    width: 68px;
+    cursor: pointer;
+}
+
+#logo:hover {
+    opacity: 0.85;
+    transition-duration: 0.1s;
+}
+
+/*alterei para um valor fixo, para facilitar integração com outros dispositivos*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.HeaderCima,
+.HeaderMeio {
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderCima {
+    width: 100%;
+    height: 36px;
+    justify-content: space-evenly;
+    background-color: var(--corprincipal);
+}
+
+.containerNav {
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    margin: 0 1em;
+    margin-right: 0;
+    max-width: 854px;
+    width: 100%;
+    height: 100%;
+}
+
+.containerNav a:hover {
+    background-color: #363636;
+    color: hsla(0, 0%, 100%, 0.75);
+    transition-duration: 0.1s;
+    scale: 1.01;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0 8px;
+}
+
+.containerNav a i {
+    padding: 1.5px 4px 1.5px 0;
+    font-size: 24px;
+    display: inline;
+}
+
+/*Main*/
+article a,
+article p,
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 42px;
+    padding: 24px;
+}

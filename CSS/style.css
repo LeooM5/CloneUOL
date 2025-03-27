@@ -338,13 +338,31 @@ main {
 .container img{
     width: 260px;
     height: 120px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    border: .5px solid black;
+    filter: grayscale(1);
+    transition: .5s ease;
+}
+
+.container img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.autoplay img {
+    border: .5px solid black;
+    transition: .5s ease;
 }
 
 article h1 {
     font-size: 1em;
     font-family: 'FolhaII', Georgia, serif;
     line-height: 1.13;
+    transition: .5s ease;
+}
+
+article h1:hover {
+    transform: scale(1.1);
 }
 
 article p {
@@ -352,10 +370,18 @@ article p {
     font-family: 'FolhaTexto', Georgia, serif;
 }
 
+article h1, article p {
+    text-align: justify;
+}
+
 article {
     height: auto;
 }
 
+article a {
+    padding: 0;
+    margin-bottom: 8px;
+}
 
 
 /* FOOTER */
@@ -367,6 +393,8 @@ footer {
     background-color: var(--corprincipal);
     width: 100dvw;
     height: 57px;
+    position: absolute;
+    bottom: 0;
 }
 
 footer h2,

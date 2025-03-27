@@ -275,6 +275,11 @@ main{
     width: 680px;
 }
 
+.container img {
+    width: 640px;
+    height: 360px;
+}
+
 article{
     margin: 16px;
     
@@ -297,7 +302,7 @@ main a{
 }
 
 main img{
-    margin-bottom: 64px;
+    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -306,6 +311,10 @@ main p span{
     font-size: 12px;
     font: 500;
     text-align: left;
+}
+
+.paragrafo p {
+    margin-bottom: .8em;
 }
 
 /*footer*/

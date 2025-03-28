@@ -16,7 +16,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -44,7 +44,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    margin-top: 2em;
 }
 
 .HeaderCima,
@@ -58,6 +58,8 @@ header {
     height: 36px;
     justify-content: space-evenly;
     background-color: var(--corprincipal);
+    position: fixed;
+    top: 0;
 }
 
 .containerNav {
@@ -266,12 +268,12 @@ a>h1 {
 
 /*main*/
 
-main{
+main {
     display: flex;
     justify-content: center;
 }
 
-.container{
+.container {
     width: 680px;
 }
 
@@ -280,12 +282,12 @@ main{
     height: 360px;
 }
 
-article{
+article {
     margin: 16px;
-    
+
 }
 
-main h1{
+main h1 {
     text-align: left;
     font: 700;
     font-family: arial, sans-serif;
@@ -295,18 +297,18 @@ main h1{
 }
 
 main p,
-main a{
+main a {
     margin: 0 auto;
     text-align: justify;
     color: black;
 }
 
-main img{
+main img {
     margin-bottom: 1em;
     text-align: center;
 }
 
-main p span{
+main p span {
     color: rgb(252, 43, 43);
     font-size: 12px;
     font: 500;
@@ -329,6 +331,7 @@ footer {
     background-color: var(--corprincipal);
     width: 100dvw;
     height: 57px;
+    margin-top: 3em;
 }
 
 footer h2,

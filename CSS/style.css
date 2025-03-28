@@ -44,7 +44,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    margin-top: 2em;
 }
 
 .HeaderCima,
@@ -58,6 +58,8 @@ header {
     height: 36px;
     justify-content: space-evenly;
     background-color: var(--corprincipal);
+    position: fixed;
+    top: 0;
 }
 
 .containerNav {

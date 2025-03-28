@@ -389,12 +389,11 @@ article a {
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 4em;
+    position: fixed;
+    bottom: 0;
     background-color: var(--corprincipal);
     width: 100dvw;
     height: 57px;
-    position: absolute;
-    bottom: 0;
 }
 
 footer h2,

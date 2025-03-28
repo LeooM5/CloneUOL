@@ -317,12 +317,15 @@ main p span{
     margin-bottom: .8em;
 }
 
+p {
+    text-indent: 1em;
+}
+
 /*footer*/
 
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 4em;
     background-color: var(--corprincipal);
     width: 100dvw;
     height: 57px;
